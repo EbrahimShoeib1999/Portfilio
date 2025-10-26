@@ -12,7 +12,6 @@ export function Projects() {
   const isInView = useInView(ref, { once: true, amount: 0.1 });
   const [filter, setFilter] = useState("all");
 
-  
   const projects = [
     {
       title: "E-Commerce Dashboard",
