@@ -9,6 +9,7 @@ interface ApiEndpointCardProps {
   endpoint: ApiEndpoint;
 }
 
+
 // Simple JSON syntax highlighter helper
 function HighlightedJson({ jsonString }: { jsonString: string }) {
   const formatJson = (str: string) => {
